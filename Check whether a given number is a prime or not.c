@@ -24,7 +24,7 @@ int prime(int i,int n)
 		}
 		else
 		{
-			return prime(i+1,n);
+			return prime(i+1,n);      // Recursion has used here.
 		}
 	}
 }
